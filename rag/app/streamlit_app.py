@@ -16,6 +16,7 @@ Settings.embed_model = HuggingFaceEmbedding(
     model_name="intfloat/multilingual-e5-large", embed_batch_size=100
 )
 
+
 # Função para carregar ou criar o índice
 @st.cache_resource
 def load_or_create_index():
@@ -26,6 +27,7 @@ def load_or_create_index():
     else:
         index = get_vector_index(path_folder=default_path_index)
     return index
+
 
 # Carrega o índice
 index = load_or_create_index()
