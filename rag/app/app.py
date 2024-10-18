@@ -1,20 +1,30 @@
+# Importa a classe para embeddings usando o modelo Hugging Face
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+
+# Importa a classe do modelo Groq para uso com LlamaIndex
 from llama_index.llms.groq import Groq
+
+# Importa funções de ingestão de dados e criação de índices
 from rag.ingestion import (
     default_path_index,
     create_vector_index,
     get_documents,
     get_vector_index,
 )
+
+# Importa a função para criar um motor de busca no índice vetorial
 from rag.querying import create_engine
 
+# Configurações globais do LlamaIndex
 from llama_index.core import Settings
 
+# Configurações do modelo e embeddings
 Settings.llm = Groq(model="llama-3.1-70b-versatile", temperature=0)
 Settings.embed_model = HuggingFaceEmbedding(
     model_name="intfloat/multilingual-e5-large", embed_batch_size=100
 )
 
+# Lista de palavras que param o funcionamento
 stop_words: list = ["quit", "exit", "0", "sair", "parar", "stop"]
 
 
