@@ -7,16 +7,16 @@ from typing import List
 # Estrutura de documento do LlamaIndex
 from llama_index.core import Document
 
-# Estrutura para ler documentandos de um diretório
+# Leitor para carregar documentos de arquivos em um diretório
 from llama_index.core.readers.file.base import SimpleDirectoryReader
 
-# Constrói um índice vetorial dos documentos carregados
+# Classe para criar e gerenciar um índice vetorial com os documentos
 from llama_index.core import VectorStoreIndex
 
-# Gera um indice dado uma contexto já criado
+# Função para carregar um índice vetorial armazenado a partir de um contexto de armazenamento
 from llama_index.core import load_index_from_storage
 
-# Estrutura de dados que armazena documentos e vetores
+# Estrutura de contexto que gerencia o armazenamento de documentos e vetores
 from llama_index.core.storage import StorageContext
 
 # Caminho padrão para o índice de vetores e os dados utilizados no projeto
