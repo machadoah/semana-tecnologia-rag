@@ -1,0 +1,62 @@
+
+1º ciclo
+Administração Geral
+Arquitetura e Organização de Computadores
+Algoritmos e Lógica de Programação
+Laboratório de Hardware
+Programação em Microinformática
+Inglês I
+Matemática Discreta
+
+2º ciclo
+Contabilidade
+Engenharia de Software I
+Linguagem de Programação
+Sistemas de Informação
+Inglês II
+Comunicação e Expressão
+Cálculo
+
+3º ciclo
+Economia e Finanças
+Sociedade e Tecnologia
+Estruturas de Dados
+Engenharia de Software II
+Interação Humano Computador
+Sistemas Operacionais I
+Inglês III
+Estatística Aplicada
+
+4º ciclo
+Banco de Dados
+Engenharia de Software III
+Programação Orientada a Objetos
+Linguagem de Programação IV - INTERNET
+Sistemas Operacionais II
+Inglês IV
+Metodologia da Pesquisa Científico-Tecnológica
+
+5º ciclo
+Laboratório de Banco de Dados (Escolha 1)
+Laboratório de Engenharia de Software
+Redes de Computadores
+Segurança da Informação
+Inglês V
+Trabalho de Graduação I
+Programação para Dispositivos Móveis
+Gestão de Projetos
+
+6º ciclo
+
+Programação Linear e Aplicações
+Gestão de Equipes
+Empreendedorismo
+Ética e Responsabilidade Profissional
+Inteligência Artificial (Escolha 3)
+Tópicos Especiais em Informática (Escolha 2)
+Gestão e Governança de Tecnologia da Informação
+Inglês VI
+Estágio Supervisionado em Análise e Desenvolvimento de Sistemas
+Trabalho de Graduação II
+Carga Horária
+2800 horas/aula
