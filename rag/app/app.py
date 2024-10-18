@@ -39,7 +39,7 @@ def main():
     while True:
         pergunta = input("Insira sua pergunta: ")
 
-        if pergunta.lower() in stop_works:
+        if pergunta.lower() in stop_words:
             break
 
         # Realiza uma consulta usando o motor de consulta
