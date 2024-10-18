@@ -15,7 +15,7 @@ Settings.embed_model = HuggingFaceEmbedding(
     model_name="intfloat/multilingual-e5-large", embed_batch_size=100
 )
 
-stop_works: list = ["quit", "exit", "0", "sair", "parar", "stop"]
+stop_words: list = ["quit", "exit", "0", "sair", "parar", "stop"]
 
 
 def main():
